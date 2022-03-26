@@ -7,6 +7,7 @@
 body {
     font-family: "Karla", sans-serif;
     margin: 0;
+    background-color: rgb(162, 162, 162);
 }
 
 nav{
@@ -42,23 +43,30 @@ h3 {
     align-items: center;
 }
 
+.form {
+    display:grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
 input {
-    width: 230px;
+    font-family: "Karla", sans-serif;
     border: 1px solid #D5D4D8;
     height: 35px;
     border-radius: 5px;
+    text-indent: 10px;
 }
 
-input:last-child{
-    margin-left:17px ;
-}
 
 button{
+    font-family: "Karla", sans-serif;
     color: white;
     width: 477px;
     height: 40px;
     background: #711F8D;
     border-radius: 5px;
     border: none;
+    grid-column: 1 /-1;
+    cursor: pointer;
 
 }
