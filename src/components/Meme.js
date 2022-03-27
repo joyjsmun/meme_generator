@@ -14,11 +14,12 @@ export default function Meme(){
     
     
     function getMemeImage() {
-        const memesArray = memesData.data.memes
+        const memesArray = allMemeImages.data.memes
         const randomNumber = Math.floor(Math.random() * memesArray.length)
+        const url = memesArray[randomNumber].url
         setMeme(prev => ({
             ...prev,
-            randomImage: memesArray[randomNumber].url
+            randomImage: url
         }))
         
     }
