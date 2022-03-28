@@ -68,6 +68,7 @@ button{
     border: none;
     grid-column: 1 /-1;
     cursor: pointer;
+    font-size: 1.2em;
 
 }
 
@@ -75,5 +76,5 @@ button{
     margin-top: 36px;
     width: 477px;
     opacity: 0.8;
-    border-radius: 2px;     
+    border-radius: 3px;     
 }
