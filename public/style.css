@@ -13,7 +13,7 @@ body {
 nav{
     display: flex;
     height: 65px;
-    background: #711F8D;
+    background: #9b59b6;
     align-items: center;
     padding: 20px;
 }
@@ -63,7 +63,7 @@ button{
     color: white;
     width: 477px;
     height: 40px;
-    background: #711F8D;
+    background: #9b59b6;
     border-radius: 5px;
     border: none;
     grid-column: 1 /-1;
