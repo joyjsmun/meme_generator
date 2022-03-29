@@ -72,9 +72,31 @@ button{
 
 }
 
+.memeImgForm{
+    position: relative;
+    
+}
+
+.memeImgForm__top{
+    position: absolute;
+    width: 100%;
+    top:16px;
+    text-align: center;
+
+}
+
+.memeImgForm__bottom{
+    position: absolute;
+    width: 100%;
+    bottom:16px;
+    text-align: center;
+    
+}
+
 .memeImg{
     margin-top: 36px;
     width: 477px;
     opacity: 0.8;
     border-radius: 3px;     
 }
+

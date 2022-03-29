@@ -45,9 +45,11 @@ export default function Meme(){
                     <input type="text" name="bottomText" onChange={handleChange} placeholder="Bottom Text"/>
                     <button onClick={getMemeImage}>Get a new meme image</button>
             </form>
-            <div>Top:{meme.topText}</div>
-            <div>Bottom:{meme.bottomText}</div>
-            {meme.randomImage? <img className="memeImg" src={meme.randomImage} alt="img" /> : null}
+            <div className="memeImgForm">
+                <h1 className="memeImgForm__top">Top:{meme.topText}</h1>
+                <h1 className="memeImgForm__bottom">Bottom:{meme.bottomText}</h1>
+                {meme.randomImage? <img className="memeImg" src={meme.randomImage} alt="img" /> : null}
+            </div>
         </div>
     )
 }
